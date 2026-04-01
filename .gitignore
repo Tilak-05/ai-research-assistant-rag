@@ -1,0 +1,35 @@
+# Virtual Environment
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Vector database (can be rebuilt)
+vector_store/
+
+# Processed data
+data/processed/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large files
+*.sqlite
+*.db
