@@ -1,21 +1,21 @@
-# Virtual Environment
-venv/
-.env/
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Environment variables
+# Virtual Environment
+venv/
 .env
 
-# Vector database (can be rebuilt)
+# Streamlit
+.streamlit/
+
+# Vector database (can be regenerated)
 vector_store/
 
-# Processed data
-data/processed/
+# Uploaded documents
+data/raw_pdfs/
 
 # Logs
 *.log
@@ -24,12 +24,6 @@ data/processed/
 .DS_Store
 Thumbs.db
 
-# VSCode settings
+# IDE
 .vscode/
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Large files
-*.sqlite
-*.db
+.idea/
