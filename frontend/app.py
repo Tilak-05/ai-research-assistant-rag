@@ -1,7 +1,7 @@
+
 import sys
 import os
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.append(os.getcwd())
 
 import streamlit as st
 from langchain_community.vectorstores import FAISS
